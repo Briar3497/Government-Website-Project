@@ -83,7 +83,6 @@ nav > ul {
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
-    
 }
 
 .title {
@@ -141,6 +140,34 @@ div a:hover {
 a > h2 {
     margin: 2px;
     padding: 2px;
+}
+
+.city-container {
+    display: grid;
+    grid-template-columns: auto 350px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "city-intro aside"
+    "general-info aside";
+}
+
+.float-right {
+    grid-area: aside;
+    flex-direction: column;
+}
+
+.city-intro {
+    grid-area: city-intro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-info {
+    grid-area: general-info;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 form {
