@@ -1,0 +1,155 @@
+/*General overall*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header css*/
+header {
+    background-color: #7F8CAA;
+    border-bottom: 2px solid black;
+    color: #EAEFEF;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 0px;
+
+}
+
+header p {
+    align-content: center;
+    font-size: xx-large;
+    color: #EAEFEF;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav {
+    text-decoration: none;
+    color: #EAEFEF;
+}
+/*Main body css*/
+
+nav {
+    background-color: #333446;
+    padding: 5px;
+    color: #EAEFEF;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-bottom: 2px solid black;
+}
+
+.nav:hover {
+    color: #f8d678;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.home-grid {
+    display: grid;
+    background: url(/images/deSoto-park.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    height: 60vh;
+}
+
+#container {
+    position: relative;
+    background-color: #d2defb;
+    top: 9rem;
+    height: fit-content;
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.info {
+    text-align: center;
+    font-size: 25px;
+}
+
+aside {
+    background-color: #333446;
+    border-top: 2px solid;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+aside > div {
+    background-color: #d2defb;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+div a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333446;
+}
+
+div a:hover {
+    color: #8286db
+}
+
+.aside-img {
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#wind-creek {
+    width: 300px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a > h2 {
+    margin: 2px;
+    padding: 2px;
+}
+
+/*Footer css*/
+
+footer {
+    background-color: #7F8CAA;
+    border-top: 2px solid black;
+    color: #EAEFEF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cite {
+    font-style: italic;
+}
