@@ -155,7 +155,7 @@ fieldset {
 }
 
 label {
-    width: 110px;
+    width: 115px;
     text-align: right;
     display: inline-block;
     margin-right: 5px;
@@ -194,6 +194,11 @@ input[type=submit]:hover {
 
 #form-flex > label {
     margin-bottom: 5px;
+}
+
+.star::before {
+    color: red;
+    content: "*";
 }
 
 /*Footer css*/

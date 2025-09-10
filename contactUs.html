@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="icon" href="/images/alabama-logo.png">
         <link rel="stylesheet" href="/CSS/stylesheet.css">
+        <script src="webForm.js"></script>
     </head>
     <body>
         <header>
@@ -25,26 +26,26 @@
                 <fieldset>
                     <legend>Contact Us</legend>
                     <p>
-                        <label for="first">First Name:</label>
-                        <input type="text" name="first" id="first">
+                        <label class="star" for="first">First Name:</label>
+                        <input type="text" name="first" id="first" required>
                     </p>
                     <p>
-                        <label for="last">Last Name:</label>
-                        <input type="text" name="last" id="last">
+                        <label class="star" for="last">Last Name:</label>
+                        <input type="text" name="last" id="last" required>
                     </p>
                     <p>
-                        <label for="email-init">Email:</label>
-                        <input type="email" name="email-init" id="email-init">
+                        <label class="star" for="email-init">Email:</label>
+                        <input type="email" name="email-init" id="email-init" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
                     </p>
                     <p>
-                        <label for="email-confirm">Confirm email:</label>
-                        <input type="email" name="email-confirm" id="email-confirm">
+                        <label class="star" for="email-confirm">Confirm email:</label>
+                        <input type="email" name="email-confirm" id="email-confirm" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
                     </p>
                     <p id="form-flex">
                         <label for="question">Questions:</label>
                         <textarea name="question" id="question" rows="7" cols="50"></textarea>
                     </p>
-                    <input type="submit" value="Submit">
+                    <input id="submit-button" type="submit" value="Submit">
                 </fieldset>
             </form>
             <footer>
@@ -57,6 +58,16 @@
                 <cite>
                     Frank McCown.(March 2024). D 277: Front-end Web Development home > 2.2: Forms<br>
                     https://learn.zybooks.com/zybook/WGUD277v2/chapter/2/section/2
+                </cite>
+                <br>
+                <cite>
+                    Frank McCown.(March 2024). D 277: Front-end Web Development home > 7.1: Form validation<br>
+                    https://learn.zybooks.com/zybook/WGUD277v2/chapter/7/section/1
+                </cite>
+                <br>
+                <cite>
+                    Frank McCown.(March 2024). D 277: Front-end Web Development home > 7.2: Web storage<br>
+                    https://learn.zybooks.com/zybook/WGUD277v2/chapter/7/section/2
                 </cite>
             </footer>
         </main>
