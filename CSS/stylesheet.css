@@ -64,39 +64,52 @@ nav > ul {
 }
 
 #parent-container {
-    display: grid;
     background: url(/images/deSoto-park.jpg);
     background-position: center;
     background-size: cover;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
     justify-content: center;
-    height: 60vh;
+    height: 100vh;
     position: relative;
 }
 
 #child-container {
     position: absolute;
-    left: 25vw;
-    display: flex;
-    flex-direction: column;
+    left: 15%;
     background-color: #d2defb;
     top: 9rem;
-    height: fit-content;
-    width: 50vw;
+    height: 50vh;
+    width: 70%;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 5px;
+    padding: 2%;
 }
 
 .title {
-    text-align: center;
     font-size: 40px;
+    text-align: center;
 }
 
 .info {
-    text-align: center;
     font-size: 20px;
+    text-align: center;
+}
+
+.home-image {
+    width: 25%;
+    border-radius: 10px;
+}
+
+#float-right {
+    float: right;
+    margin-top: 8%;
+}
+
+#float-left {
+    float: left;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
 }
 
 aside {
@@ -166,11 +179,14 @@ a > h2 {
 
 .city-intro > h1 {
     margin-bottom: 0px;
+    padding: 10px;
+    font-size: 45px;
 }
 
-.city-intro > img {
-    width: 400px;
+.page-image {
+    width: 35%;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .general-info {
@@ -182,11 +198,12 @@ a > h2 {
 }
 
 .general-info > ul {
-    position: relative;
-    left: -200px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 }
 
-.float-right {
+.aside {
     grid-area: aside;
     flex-direction: column;
 }
