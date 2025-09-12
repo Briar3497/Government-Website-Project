@@ -1,11 +1,9 @@
-/*General overall*/
 body {
     margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*Header css*/
 header {
     background-color: #7F8CAA;
     border-bottom: 2px solid black;
@@ -31,7 +29,6 @@ header p {
     text-decoration: none;
     color: #EAEFEF;
 }
-/*Main body css*/
 
 main {
     background-color: #d2defb;
@@ -269,8 +266,6 @@ input[type=submit]:hover {
     color: red;
     content: "*";
 }
-
-/*Footer css*/
 
 footer {
     background-color: #7F8CAA;
