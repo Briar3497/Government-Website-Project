@@ -189,6 +189,10 @@ a > h2 {
     margin-top: 50px;
 }
 
+.background {
+    background-color: #333446;
+}
+
 .general-info {
     grid-area: general-info;
     display: flex;
