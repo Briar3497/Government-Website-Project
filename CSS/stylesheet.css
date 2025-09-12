@@ -65,17 +65,17 @@ nav > ul {
     background-position: center;
     background-size: cover;
     justify-content: center;
-    height: 100vh;
+    height: 150vh;
     position: relative;
 }
 
 #child-container {
     position: absolute;
-    left: 15%;
+    left: 8%;
     background-color: #d2defb;
     top: 9rem;
-    height: 50vh;
-    width: 70%;
+    height: 80vh;
+    width: 80%;
     border: 2px solid black;
     border-radius: 10px;
     padding: 2%;
@@ -92,13 +92,14 @@ nav > ul {
 }
 
 .home-image {
-    width: 25%;
+    width: 33%;
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 #float-right {
     float: right;
-    margin-top: 8%;
+    margin-top: 17%;
 }
 
 #float-left {
@@ -106,7 +107,26 @@ nav > ul {
     width: 65%;
     display: flex;
     flex-direction: column;
-    margin-top: 8%;
+    margin-top: 2%;
+}
+
+table {
+    margin: 5px;
+    margin-top: 3%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: large;
 }
 
 aside {
