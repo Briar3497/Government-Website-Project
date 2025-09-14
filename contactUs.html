@@ -21,32 +21,66 @@
                     <li>Contact Us</li>
                 </ul>
             </nav>
-            <form>
-                <fieldset>
-                    <legend>Contact Us</legend>
-                    <p>
-                        <label class="star" for="first">First Name:</label>
-                        <input type="text" name="first" id="first" required>
-                    </p>
-                    <p>
-                        <label class="star" for="last">Last Name:</label>
-                        <input type="text" name="last" id="last" required>
-                    </p>
-                    <p>
-                        <label class="star" for="email-init">Email:</label>
-                        <input type="email" name="email-init" id="email-init" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
-                    </p>
-                    <p>
-                        <label class="star" for="email-confirm">Confirm email:</label>
-                        <input type="email" name="email-confirm" id="email-confirm" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
-                    </p>
-                    <p id="form-flex">
-                        <label for="question">Questions:</label>
-                        <textarea name="question" id="question" rows="7" cols="50"></textarea>
-                    </p>
-                    <input id="submit-button" type="submit" value="Submit">
-                </fieldset>
-            </form>
+            <div class="city-container">
+                <section class="city-intro">
+                    <h1>Contact Us</h1>
+                    <p>If you have any questions, please let us know and we will get back to you as soon as possible!</p>
+                </section>
+                <section class="general-info">
+                    <form>
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <p>
+                                <label class="star" for="first">First Name:</label>
+                                <input type="text" name="first" id="first" required>
+                            </p>
+                            <p>
+                                <label class="star" for="last">Last Name:</label>
+                                <input type="text" name="last" id="last" required>
+                            </p>
+                            <p>
+                                <label class="star" for="email-init">Email:</label>
+                                <input type="email" name="email-init" id="email-init" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+                            </p>
+                            <p>
+                                <label class="star" for="email-confirm">Confirm email:</label>
+                                <input type="email" name="email-confirm" id="email-confirm" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+                            </p>
+                            <p id="form-flex">
+                                <label for="question">Questions:</label>
+                                <textarea name="question" id="question" rows="7" cols="50"></textarea>
+                            </p>
+                            <input id="submit-button" type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                </section>
+                <aside class="aside">
+                    <div>
+                        <a href="https://asf.net/" target="_blank">
+                            <h2>Alabama Shakespeare Festival</h2>
+                            <img class="aside-img" src="/images/shakespeare-festival.png" alt="Alabama Shakespeare Festival">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.alapark.com/parks/bucks-pocket-state-park" target="_blank">
+                            <h2>Buck's Pocket State Park</h2>
+                            <img class="aside-img" src="/images/buck-pocket.svg" alt="Buck's Pocket State Park">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.rocketcenter.com/" target="_blank">
+                            <h2>U.S. Space and Rocket Center</h2>
+                            <img class="aside-img" src="/images/space-and-rocket.png" alt="U.S. Space and Rocket Center">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.artsbma.org/" target="_blank">
+                            <h2>Birmingham Museum of Art</h2>
+                            <img class="aside-img" src="/images/art-museum.png" alt="Birmingham Museum of Art">
+                        </a>
+                    </div>
+                </aside>
+            </div>
             <footer>
                 <h2 class="cite">Sources</h2>
                 <cite>
@@ -67,6 +101,26 @@
                 <cite>
                     Frank McCown.(March 2024). D 277: Front-end Web Development home > 7.2: Web storage<br>
                     https://learn.zybooks.com/zybook/WGUD277v2/chapter/7/section/2
+                </cite>
+                <br>
+                <cite>
+                    Alabama Shakespeare Festival.(2025). Alabama Shakespeare Festival<br>
+                    https://asf.net/
+                </cite>
+                <br>
+                <cite>
+                    AlaParks(September, 2025). Buck's Pocket State Park<br>
+                    https://www.alapark.com/parks/bucks-pocket-state-park
+                </cite>
+                <br>
+                <cite>
+                    Huntsville, Alabama Population 2025. (2025-09-11). World Population Review.<br>
+                    https://worldpopulationreview.com/us-cities/alabama/huntsville
+                </cite>
+                <br>
+                <cite>
+                    Birmingham Museum of Art.(2025). Birmingham Museum of Art<br>
+                    https://www.artsbma.org/
                 </cite>
             </footer>
         </main>

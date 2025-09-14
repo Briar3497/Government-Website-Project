@@ -232,7 +232,6 @@ a > h2 {
 form {
     padding: 10px;
     display: flex;
-    justify-content: center;
     margin: 10px;
 }
 
